@@ -197,6 +197,10 @@ section {
     text-align: center;
 }
 
+#profile-img {
+    border-radius: 50%;
+}
+
 #socials-container {
     display: flex;
     justify-content: center;
