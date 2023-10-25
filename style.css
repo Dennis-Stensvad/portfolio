@@ -239,6 +239,7 @@ section {
 .btn-color-1:hover, 
 .btn-color-2:hover {
     cursor: pointer;
+    border: rgb(255, 255, 255) 0.1rem solid
 }
 
 .btn-color-1, 
@@ -253,10 +254,6 @@ section {
 
 .btn-color-2 {
     background: none;
-}
-
-.btn-color-2:hover {
-    border: rgb(255, 255, 255) 0.1rem solid
 }
 
 .btn-container {
@@ -301,6 +298,7 @@ section {
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
+    background: rgb(250, 250, 250);
     text-align: center;
 }
 
@@ -376,11 +374,6 @@ article .icon {
     color: black;
 }
 
-.project-btn {
-    color: black;
-    border-color: rgb(163, 163, 163);
-}
-
 /* Contact section */
 
 #contact {
@@ -413,7 +406,7 @@ article .icon {
     font-size: larger;
 }
 
-.contact-icon {
+.nonclick-icon {
     cursor: default;
 }
 
